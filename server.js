@@ -6,7 +6,7 @@ const app = express();
 
 
 
-const connectionString = `mongodb+srv://kalebalebachew4:kalebalebachew@kaleb.x3cfdzk.mongodb.net/`;
+const connectionString = `mongodb+srv://*******:*********@kaleb.x3cfdzk.mongodb.net/`;
 
 mongoose.connect(connectionString, {
   useNewUrlParser: true,
